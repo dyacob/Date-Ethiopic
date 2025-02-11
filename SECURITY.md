@@ -70,27 +70,27 @@ have an adverse impact on accessibility or performance of a system.
 
 Security vulnerabilities in upstream software (embedded libraries,
 prerequisite modules or system libraries, or in Perl), are not
-covered by this policy unless they affect Date::Ethiopic, or Date::Ethiopic can
+covered by this policy unless they affect `Date::Ethiopic`, or `Date::Ethiopic` can
 be used to exploit vulnerabilities in them.
 
 Security vulnerabilities in downstream software (any software that
-uses Date::Ethiopic, or plugins to it that are not included with the
-Date::Ethiopic distribution) are not covered by this policy.
+uses `Date::Ethiopic`, or plugins to it that are not included with the
+`Date::Ethiopic` distribution) are not covered by this policy.
 
 ## Supported Versions of Date::Ethiopic
 
 The maintainer(s) will only commit to releasing security fixes for
-the latest version of Date::Ethiopic.
+the latest version of `Date::Ethiopic`.
 
-Note that the Date::Ethiopic project only supports major versions of Perl
-released in the past 10 years, even though Date::Ethiopic will run on
+Note that the `Date::Ethiopic` project only supports major versions of Perl
+released in the past 10 years, even though `Date::Ethiopic` will run on
 older versions of Perl.  If a security fix requires us to increase
 the minimum version of Perl that is supported, then we may do so.
 
 # Installation and Usage Issues
 
 The distribution metadata specifies minimum versions of
-prerequisites that are required for Date::Ethiopic to work.  However, some
+prerequisites that are required for `Date::Ethiopic` to work.  However, some
 of these prerequisites may have security vulnerabilities, and you
 should ensure that you are using up-to-date versions of these
 prerequisites.

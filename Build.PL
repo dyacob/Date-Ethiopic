@@ -8,7 +8,7 @@ use Module::Build;
 
 if ( $] < 5.006 ) {
 
-print "Adjusting for pre-Perl 5.6 ... ".
+print "Adjusting for pre-Perl 5.6 ... ";
 
 my $fh;
 open ( $fh, "MANIFEST" );

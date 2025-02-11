@@ -26,7 +26,7 @@ Coding guidelines are basic, please use:
 - [EditorConfig](http://editorconfig.org/)
 - [PerlTidy](http://perltidy.sourceforge.net/)
 
-Evaluation with Perl::Critic is also encouraged.
+Evaluation with `Perl::Critic` is also encouraged.
 
 Not actually applying any of the above presently, but this is the intent going forward 😊
 
